@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Aspirin",
+    "active_salt": "Acetylsalicylic acid",
+    "uses": "Pain relief, fever reduction, anti-inflammatory",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Warfarin",
+        "severity": "High",
+        "description": "Increased risk of bleeding."
+      },
+      {
+        "interacting_drug_salt": "Ibuprofen",
+        "severity": "Moderate",
+        "description": "May reduce the cardioprotective effects of Aspirin."
+      }
+    ]
+  },
+  {
+    "name": "Warfarin",
+    "active_salt": "Warfarin sodium",
+    "uses": "Blood thinning, preventing blood clots",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Acetylsalicylic acid",
+        "severity": "High",
+        "description": "Increased risk of bleeding."
+      },
+      {
+        "interacting_drug_salt": "Acetaminophen",
+        "severity": "Moderate",
+        "description": "High doses may increase the effects of warfarin."
+      }
+    ]
+  },
+  {
+    "name": "Paracetamol",
+    "active_salt": "Acetaminophen",
+    "uses": "Pain relief, fever reduction",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Warfarin sodium",
+        "severity": "Moderate",
+        "description": "High doses may increase the effects of warfarin."
+      }
+    ]
+  },
+  {
+    "name": "Amoxicillin",
+    "active_salt": "Amoxicillin trihydrate",
+    "uses": "Bacterial infection treatment",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Methotrexate",
+        "severity": "High",
+        "description": "May increase methotrexate toxicity."
+      }
+    ]
+  },
+  {
+    "name": "Lisinopril",
+    "active_salt": "Lisinopril",
+    "uses": "High blood pressure treatment",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Potassium",
+        "severity": "High",
+        "description": "Risk of hyperkalemia (high blood potassium)."
+      },
+      {
+        "interacting_drug_salt": "Ibuprofen",
+        "severity": "Moderate",
+        "description": "May reduce blood pressure lowering effect."
+      }
+    ]
+  },
+  {
+    "name": "Advil",
+    "active_salt": "Ibuprofen",
+    "uses": "Pain relief, fever reduction, anti-inflammatory",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Lisinopril",
+        "severity": "Moderate",
+        "description": "May reduce blood pressure lowering effect."
+      },
+      {
+        "interacting_drug_salt": "Acetylsalicylic acid",
+        "severity": "Moderate",
+        "description": "May reduce the cardioprotective effects of Aspirin."
+      }
+    ]
+  },
+  {
+    "name": "Metformin",
+    "active_salt": "Metformin hydrochloride",
+    "uses": "Type 2 diabetes treatment",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Ibuprofen",
+        "severity": "Moderate",
+        "description": "May increase the risk of lactic acidosis."
+      }
+    ]
+  },
+  {
+    "name": "Prilosec",
+    "active_salt": "Omeprazole",
+    "uses": "Acid reflux, GERD treatment",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Clopidogrel",
+        "severity": "High",
+        "description": "May reduce the effectiveness of Clopidogrel (blood thinner)."
+      }
+    ]
+  },
+  {
+    "name": "Lipitor",
+    "active_salt": "Atorvastatin",
+    "uses": "Cholesterol lowering",
+    "interactions": [
+      {
+        "interacting_drug_salt": "Clarithromycin",
+        "severity": "High",
+        "description": "May increase risk of muscle damage (myopathy/rhabdomyolysis)."
+      }
+    ]
+  }
+]
