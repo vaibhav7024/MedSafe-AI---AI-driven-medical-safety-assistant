@@ -57,18 +57,18 @@ The application will open in your default browser at `http://localhost:8501`.
 
 ### 📂 Project Structure
 
-c:/Vaibhav Jaiswal/medai/
-├── 📄 app.py                         # Streamlit app router & global CSS entry
-├── 📄 list_models.py                 # script to find exact Gemini model strings
-├── 📄 requirements.txt               # Standard python dependency lock
+c:/TUSHAR/medai/
+├── 📄 app.py                        # Streamlit app router & global CSS entry
+├── 📄 list_models.py                # script to find exact Gemini model strings
+├── 📄 requirements.txt              # Standard python dependency lock
 ├── 📁 data/
-│   └── 📄 medicine_db.json           # Curated mock DB of drug salts & safety rules
-├── 📁 utils/ 
-│   ├── 📄 llm_helper.py              # GenerativeAI integrations and wrappers
-│   ├── 📄 medicine_db.py             # Local DB parser & fuzzy matching logic
-│   └── 📄 ocr_helper.py              # Image digestion and Vision API wrapper
-└── 📁 views/ 
-    ├── 📄 dashboard.py               # Main beautiful pastel dashboard home
-    ├── 📄 interaction_checker.py     # Tool logic for checking safety
-    ├── 📄 prescription_ocr.py        # Tool logic for scanning prescriptions
-    └── 📄 symptom_solver.py          # Tool logic for generating medical guidance
+│   └── 📄 medicine_db.json          # Curated mock DB of drug salts & safety rules
+├── 📁 utils/
+│   ├── 📄 llm_helper.py             # GenerativeAI integrations and wrappers
+│   ├── 📄 medicine_db.py            # Local DB parser & fuzzy matching logic
+│   └── 📄 ocr_helper.py             # Image digestion and Vision API wrapper
+└── 📁 views/
+    ├── 📄 dashboard.py              # Main beautiful pastel dashboard home
+    ├── 📄 interaction_checker.py    # Tool logic for checking safety
+    ├── 📄 prescription_ocr.py       # Tool logic for scanning prescriptions
+    └── 📄 symptom_solver.py         # Tool logic for generating medical guidance
