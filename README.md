@@ -57,7 +57,7 @@ The application will open in your default browser at `http://localhost:8501`.
 
 ### 📂 Project Structure
 
-c:/TUSHAR/medai/
+c:/Vaibhav Jaiswal/medai/
 ├── 📄 app.py                        # Streamlit app router & global CSS entry
 ├── 📄 list_models.py                # script to find exact Gemini model strings
 ├── 📄 requirements.txt              # Standard python dependency lock
