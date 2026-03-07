@@ -54,9 +54,11 @@ Start the Streamlit development server:
 python -m streamlit run app.py
 ```
 The application will open in your default browser at `http://localhost:8501`.
+## 📂 Project Structure
 
-### 📂 Project Structure
+This repository is organized as follows:
 
+```bash
 c:/Vaibhav Jaiswal/medai/
 ├── 📄 app.py                        # Streamlit app router & global CSS entry
 ├── 📄 list_models.py                # Script to find exact Gemini model strings
