@@ -59,8 +59,8 @@ The application will open in your default browser at `http://localhost:8501`.
 
 c:/Vaibhav Jaiswal/medai/
 ├── 📄 app.py                        # Streamlit app router & global CSS entry
-├── 📄 list_models.py                # script to find exact Gemini model strings
-├── 📄 requirements.txt              # Standard python dependency lock
+├── 📄 list_models.py                # Script to find exact Gemini model strings
+├── 📄 requirements.txt              # Standard Python dependency lock
 ├── 📁 data/
 │   └── 📄 medicine_db.json          # Curated mock DB of drug salts & safety rules
 ├── 📁 utils/
