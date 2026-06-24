@@ -1,4 +1,3 @@
-
 # 🛡️ MedSafe AI
 
 **Your Intelligent Healthcare Assistant**
