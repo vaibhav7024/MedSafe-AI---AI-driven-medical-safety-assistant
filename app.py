@@ -7,6 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
 # Custom Styling (Apple-like Light Mode, Bold Typography, Smooth UI, Dashboard)
 st.markdown("""
 <style>
