@@ -10,6 +10,7 @@ api_key = os.getenv("GEMINI_API_KEY")
 if api_key:
     genai.configure(api_key=api_key)
 
+
 # We use gemini-2.5-flash for fast text generation
 generation_model = genai.GenerativeModel('gemini-2.5-flash')
 
